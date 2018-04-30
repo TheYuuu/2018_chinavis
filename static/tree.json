@@ -1,0 +1,2425 @@
+{
+    "name": "1067@hightech.com",
+    "subjects_in": [],
+    "level": 1,
+    "subjects_out": [],
+    "type": "Boos",
+    "children": [
+        {
+            "name": "1059@hightech.com",
+            "subjects_in": [],
+            "level": 2,
+            "subjects_out": [],
+            "type": "development1",
+            "children": [
+                {
+                    "name": "1057@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1142@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1150@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1173@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1361@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1374@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1410@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1058@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1130@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1171@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1202@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1245@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1261@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1333@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1383@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1424@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1445@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1450@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1489@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1079@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1219@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1262@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1395@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1482@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1080@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1376@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1181@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1193@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1194@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1297@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1311@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1364@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1384@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1422@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1449@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1096@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1239@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1254@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1402@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1478@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1500@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1101@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1175@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1179@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1241@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1313@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1325@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1338@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1350@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1352@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1356@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1461@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1119@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1135@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1148@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1238@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1244@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1268@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1274@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1291@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1360@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1390@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1401@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1143@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1163@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1217@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1279@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1304@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1324@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1355@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1367@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1380@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1381@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1434@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1438@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1155@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1206@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1216@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1267@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1283@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1332@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1389@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1409@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1421@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1444@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1462@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1470@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1211@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1164@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1231@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1284@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1287@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1365@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1382@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1411@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1497@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1228@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development1",
+                    "children": [
+                        {
+                            "name": "1487@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1174@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1177@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1178@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1273@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1290@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1394@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        },
+                        {
+                            "name": "1465@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "1068@hightech.com",
+            "subjects_in": [],
+            "level": 2,
+            "subjects_out": [],
+            "type": "development2",
+            "children": [
+                {
+                    "name": "1060@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1145@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1306@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1328@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1336@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1359@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1396@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1440@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1446@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1457@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1098@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1127@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1277@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1334@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1343@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1496@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1100@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1139@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1147@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1159@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1170@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1234@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1305@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1321@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1362@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1379@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1385@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1405@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1458@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1474@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1481@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1493@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1154@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1152@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1176@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1315@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1420@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1191@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1156@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1204@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1428@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1435@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1456@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1469@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1483@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1207@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1103@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1189@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1263@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1296@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1319@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1330@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1399@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1209@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development2",
+                    "children": [
+                        {
+                            "name": "1126@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1153@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1322@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1339@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1349@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1388@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        },
+                        {
+                            "name": "1460@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development2",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "1007@hightech.com",
+            "subjects_in": [],
+            "level": 2,
+            "subjects_out": [],
+            "type": "development3",
+            "children": [
+                {
+                    "name": "1087@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1141@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1151@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1220@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1286@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1373@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1494@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1092@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1112@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1270@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1301@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1308@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1344@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1115@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1169@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1183@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1233@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1243@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1357@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1408@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1423@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1425@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1455@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1459@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1464@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1471@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1491@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1125@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1113@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1307@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1398@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1172@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1132@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1246@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1257@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1314@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1345@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1397@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1436@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1466@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1475@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1477@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1480@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1490@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1192@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1140@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1210@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1282@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1303@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1340@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1403@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1484@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1199@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1197@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1278@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1348@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1391@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1486@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1224@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1281@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1102@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1106@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1134@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1195@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1205@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1221@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1275@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1299@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1323@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1326@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1351@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1393@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1406@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1416@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1417@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1429@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1495@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "1230@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "development3",
+                    "children": [
+                        {
+                            "name": "1129@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1167@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1182@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1200@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1223@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1252@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1265@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1354@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        },
+                        {
+                            "name": "1404@hightech.com",
+                            "subjects_in": [],
+                            "level": 4,
+                            "subjects_out": [],
+                            "type": "development3",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "1041@hightech.com",
+            "subjects_in": [],
+            "level": 2,
+            "subjects_out": [],
+            "type": "finance",
+            "children": [
+                {
+                    "name": "1498@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1467@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1451@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1439@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1431@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1370@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1369@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1368@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1347@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1346@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1342@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1327@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1293@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1255@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1253@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1248@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1226@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1213@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1186@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1180@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1137@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1124@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                },
+                {
+                    "name": "1108@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "finance",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "1013@hightech.com",
+            "subjects_in": [],
+            "level": 2,
+            "subjects_out": [],
+            "type": "HR",
+            "children": [
+                {
+                    "name": "1499@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1473@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1433@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1378@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1371@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1363@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1312@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1300@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1295@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1251@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1249@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1184@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1165@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1149@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1118@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1110@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                },
+                {
+                    "name": "1104@hightech.com",
+                    "subjects_in": [],
+                    "level": 3,
+                    "subjects_out": [],
+                    "type": "HR",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
