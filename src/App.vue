@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div id="app">
     <div id="main_view">
       <my_main  @nodeselect="nodeselect"></my_main>
@@ -88,7 +88,7 @@ body{
   box-sizing: border-box;
   clear:both;
   width: 100%;
-  height: 30%;
+  height: 45%;
   border: 1px solid  #9A2EFE;
 }
 </style>
