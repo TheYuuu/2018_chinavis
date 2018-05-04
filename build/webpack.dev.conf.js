@@ -22,6 +22,32 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 
   // these devServer options should be customized in /config/index.js
   devServer: {
+      before(app) {
+      app.get('/api/getArticles', (req, res) => {
+          var mysql      = require('mysql');
+          var connection = mysql.createConnection({
+            host     : '111.230.224.197',
+            user     : 'root',
+            password : 'Ly970628.',
+            database : 'chinavis'
+          });
+     
+          connection.connect();
+          var  sql = "SELECT * FROM mytcplog WHERE mytcplog.sip='10.50.50.46';"
+
+          connection.query(sql,function (err, result) {
+            if(err){
+              console.log('[SELECT ERROR] - ',err.message);
+              return;
+            }
+            res.json({
+              errno: 0,
+              data: result
+            })
+          });
+          connection.end();
+      })
+    },
     clientLogLevel: 'warning',
     historyApiFallback: {
       rewrites: [

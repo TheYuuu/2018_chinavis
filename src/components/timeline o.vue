@@ -7,10 +7,9 @@
 <script>
 import * as d3 from 'd3v4'
 export default {
-  name: 'timelinex',
+  name: 'timeline',
   data () {
     return {
-      Timedatax1:[]
     }
   },
   props:{
@@ -24,49 +23,33 @@ export default {
     }
   },
   computed:{
-/*        Timedatax (){
+        timedate (){
             return this.Timedatax;
-        }*/
-  },
-  created (){
+        }
   },
   mounted (){
     var that=this;
-      d3.csv("../static/timeline-hour.csv",function(data){
-        that.Timedatax=data
-        console.log(that.Timedatax)
-        TimeLine();//画时间轴
-    })
+    that.$nextTick(function(){
+              TimeLine();//画时间轴
+        })
 
-    function TimeLine() {
+     function TimeLine() {
         that.Timedatax.columns=["date","mounts"]
-        var timefo=d3.timeFormat("%Y/%m/%d/%H:00");
-            for (var i=0;i< that.Timedatax.length;i++)
+        var timefo=d3.timeFormat("%Y/%m/%d:%H");
+            for (var i=0;i<that.Timedatax.length;i++)
             {
-                var t=that.Timedatax[i].date.split("/");
-                let x=t[2].split(" ");
-                t[2]=x[0];
-                t[3]=x[1];
                 that.Timedatax[i].mounts=Number(that.Timedatax[i].mounts);
-                that.Timedatax[i].date=new Date(t[0],t[1]-1,t[2],t[3]);
-
-/*                var t=that.Timedatax[i].date.split("/");
-                let x=t[2].split(" ");
-                t[2]=x[0];
-                t[3]=x[1].split(':')[0]
-                t[4]=x[1].split(':')[1]
-                that.Timedatax[i].mounts=Number(that.Timedatax[i].mounts);
-                that.Timedatax[i].date=new Date(t[0],t[1],t[2],t[3],t[4]);*/
+                that.Timedatax[i].date=new Date(that.Timedatax[i].date.split("/"));
             }
+            console.log(that.Timedatax)
             var sliderHeight=document.getElementById('con').offsetHeight*0.7;
             var sliderWidth = document.getElementById('con').offsetWidth;
-            var Yheight=sliderHeight=document.getElementById('con').offsetHeight*0.70;
-            var Yheight2=sliderHeight=document.getElementById('con').offsetHeight*0.25;
+            var Yheight=sliderHeight=document.getElementById('con').offsetHeight*0.75;
 
             var x = d3.scaleTime().range([0, sliderWidth]),
             x2 = d3.scaleTime().range([0, sliderWidth]),
             y = d3.scaleLinear().range([Yheight, 0]),
-            y2 = d3.scaleLinear().range([Yheight2, 0]);
+            y2 = d3.scaleLinear().range([Yheight, 0]);
 
 
             var zoom = d3.zoom()
@@ -81,26 +64,6 @@ export default {
                 .attr("height",sliderHeight)
 
 
-            var brush = d3.brushX()
-              .extent([[0, 0], [sliderWidth, Yheight2]])
-              .on("brush end", brushed)
-              .on("end", function(){
-                    that.change(getRangeText());
-                });
-
-            var area = d3.area()
-              .curve(d3.curveMonotoneX)
-              .x(function(d) { return x(d.date); })
-              .y0(Yheight)
-              .y1(function(d) { return y(d.mounts); });
-
-
-            var area2 = d3.area()
-                .curve(d3.curveMonotoneX)
-                .x(function(d) { return x2(d.date); })
-                .y0(Yheight2)
-                .y1(function(d) { return y2(d.mounts); });
-
             // slider
 
             var sliderMargin = {
@@ -110,8 +73,8 @@ export default {
                 "right" : 550
             };
 
-            var b=that.Timedatax[0].date;
-            var e=that.Timedatax[that.Timedatax.length-1].date;
+            var b=that.timedate[0].date;
+            var e=that.timedate[that.timedate.length-1].date;
 
             var xYearFirst = d3.scaleTime()
                 .domain([b, e])
@@ -120,10 +83,6 @@ export default {
 
             var context = svgFilter.append("g")
                 .attr("class", "context")
-
-            var focus = svgFilter.append("g")
-              .attr("class", "focus")
-              .attr("transform", "translate(" + 0 + "," + Yheight + ")");
 
 
 
@@ -149,56 +108,67 @@ export default {
 
 //刷子----------------------------------------------------------------------------
 
-              x.domain(d3.extent(that.Timedatax, function(d) { return d.date; }));
-              y.domain([0, d3.max(that.Timedatax, function(d) { return d.mounts; })]);
+            var area = d3.area()
+              .curve(d3.curveMonotoneX)
+              .x(function(d) { return x(d.date); })
+              .y0(Yheight)
+              .y1(function(d) { return y(d.mounts); });
+
+
+              x.domain(d3.extent(that.timedate, function(d) { return d.date; }));
+              y.domain([0, d3.max(that.timedate, function(d) { return d.mounts; })]);
               x2.domain(x.domain());
               y2.domain(y.domain());
 
-              var xAxis = d3.axisBottom(x),
-                xAxis2 = d3.axisBottom(x2);
+
+              var xAxis = d3.axisBottom(x)
 
             context.append("g")
                 .attr("class", "axis axis--x")
-                .attr("transform", "translate(-10," + Yheight + ")")
+                .attr("transform", "translate(-10," + sliderHeight + ")")
                 .attr("stroke","white")
                 .call(xAxis);
 
-
+            var brush = d3.brushX()
+                .extent([[0, 0], [sliderWidth, sliderHeight]])
+                .on("brush", function(){
+                    updateFilterText();
+                })
+                .on("end", function(){
+                    that.change(getRangeText());
+                });
 
             context.append("path")
-                  .datum(that.Timedatax)
+                  .datum(that.timedate)
                   .attr("class", "area")
                   .attr("d", area);
 
-            svgFilter.append("rect")
+/*            svgFilter.append("rect")
                   .attr("class", "zoom")
                   .attr("width", sliderWidth)
                   .attr("height", Yheight)
-                  .call(zoom);
-            //-------------------------------------
-            focus.append("path")
-                .datum(that.Timedatax)
-                .attr("class", "area")
-                .attr("d", area2);
+                  .call(zoom);*/
 
-            focus.append("g")
-                .attr("class", "axis axis--x")
-                .attr("stroke","white")
-                .attr("transform", "translate(0," + (Yheight2) + ")")
-                .call(xAxis2);
-
-            focus.append("g")
+            context.append("g")
                 .attr("class", "brush")
                 .call(brush)
-                .call(brush.move, x.range());
+                .call(brush.move, x.range())
+                .attr("transform", "translate(0," + 0 + ")")
+                .call(zoom);
 
 
-            var handle1 = focus.select(".brush").select(".handle--w");
-            var handle2 = focus.select(".brush").select(".handle--e");
+            var handle1 = context.select(".brush").select(".handle--w");
+            var handle2 = context.select(".brush").select(".handle--e");
             
+            function brushed() {
+                var s = d3.event.selection || x2.range();
+                x.domain(s.map(x2.invert, x2));
+            }
+
+
             function getRangeText() {
-                var handle1 = focus.select(".brush").select(".handle--w");
-                var handle2 = focus.select(".brush").select(".handle--e");
+                var handle1 = context.select(".brush").select(".handle--w");
+                var handle2 = context.select(".brush").select(".handle--e");
                 var valA = x.invert(Number(handle1.attr("x"))+3);
                 var valB = x.invert(Number(handle2.attr("x"))+3);
                 return [timefo(valA),timefo(valB)];
@@ -216,19 +186,6 @@ export default {
                     .text(function(d) { return curVal[d]; })
             }
 
-            function brushed() {
-              updateFilterText();
-              if (d3.event.sourceEvent && d3.event.sourceEvent.type === "zoom") return; // ignore brush-by-zoom
-              var s = d3.event.selection || x2.range();
-              x.domain(s.map(x2.invert, x2));
-              context.select(".area").attr("d", area);
-              context.select(".axis--x").call(xAxis);
-
-              svgFilter.select(".zoom").call(zoom.transform, d3.zoomIdentity
-                  .scale(sliderWidth / (s[1] - s[0]))
-                  .translate(-s[0], 0));
-            }
-
 
             function zoomed() {
               if (d3.event.sourceEvent && d3.event.sourceEvent.type === "brush") return; // ignore zoom-by-brush
@@ -236,12 +193,12 @@ export default {
               x.domain(t.rescaleX(x2).domain());
               context.select(".area").attr("d", area);
               context.select(".axis--x").call(xAxis);
-
-             focus.select(".brush").call(brush.move, x.range().map(t.invertX, t));
               updateFilterText();
             }
 
         }
+
+
   }
 }
 </script>
