@@ -52,7 +52,7 @@ export default {
     }
   },
   beforeCreate(){
-    document.body.style.cursor="wait";
+/*    document.body.style.cursor="wait";
       this.$ajax.get('/api/getArticles')
       .then((response)=>{
         console.log(response)
@@ -60,7 +60,7 @@ export default {
       })
       .catch(function (error) {
         console.log(error);
-      });
+      });*/
   }
 }
 </script>
