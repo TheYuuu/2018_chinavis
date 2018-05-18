@@ -40,7 +40,6 @@
       },
       nodeselect(node){
         this.node=node
-        console.log(node)
       }
     },
     computed:{
