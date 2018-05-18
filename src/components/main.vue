@@ -1,6 +1,7 @@
 <template>
     <div id="graph" style="height:100%;width:100%"></div>    
 </template>
+
 <script type="text/javascript" src="../assets/d3.layout.cloud.js"></script>
 <script>
 /*import * as d3 from 'd3v4'*/
@@ -155,7 +156,9 @@ d3.json("../static/Email_depart.json",function(email){
             })
 
              //word-cloud--------------------------
-/*
+                console.log(email)
+
+
                     var color = d3.scaleLinear()
                             .domain([0,1,2,3,4,5,6,10,15,20,100])
                             .range(["#ddd", "#ccc", "#bbb", "#aaa", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
@@ -190,7 +193,7 @@ d3.json("../static/Email_depart.json",function(email){
                                 })
                                 .text(function(d) { return d.text; });
                         text_g='g_'
-                    }*/
+                    }
 
         var ticked = function() {
             link

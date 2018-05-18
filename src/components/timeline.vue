@@ -7,7 +7,7 @@
 </template>
 
 <script>
-/*import * as d3 from 'd3v4'*/
+import * as d3 from 'd3v4'
 export default {
   name: 'timelinex',
   data () {
