@@ -52,7 +52,7 @@ module.exports = function() {
           d.style = fontStyle.call(this, d, i);
           d.weight = fontWeight.call(this, d, i);
           d.rotate = rotate.call(this, d, i);
-          d.size = ~~fontSize.call(this, d, i)/total*200;
+          d.size = ~~fontSize.call(this, d, i)/total*300;
           d.padding = padding.call(this, d, i);
           return d;
         }).sort(function(a, b) { return b.size - a.size; });
