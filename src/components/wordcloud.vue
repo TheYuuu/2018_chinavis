@@ -34,6 +34,7 @@
       let that=this;
 
     d3.json("../../static/Email_depart.json",function(email){
+          console.log()
           that.drawcloud(email[node.type].send.slice(0,50),'wordcloud_send')
           that.drawcloud(email[node.type].rec.slice(0,50),'wordcloud_rec')
       })

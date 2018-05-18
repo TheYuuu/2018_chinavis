@@ -20,6 +20,7 @@
           })
       },
       draw(nodedata){
+
           var dom = document.getElementById("inf");
           var myChart = this.$echarts.init(dom);
           var app = {};

@@ -4,10 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from 'axios' 
+import echarts from 'echarts'
 
 
 import './assets/globa.css'
-
+Vue.prototype.$echarts = echarts 
 /*Vue.config.productionTip = false*/
 Vue.prototype.$ajax = axios
 
