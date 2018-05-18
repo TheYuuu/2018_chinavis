@@ -51,7 +51,6 @@
       };
 
       option = {
-        backgroundColor: '#333',
         legend: {
           bottom: 30,
 /*          data: ['北京', '上海', '广州'],*/

@@ -4,10 +4,10 @@
       <my_main  @nodeselect="nodeselect"></my_main>
     </div>
     <div id="wordcloud">
-      <wordcloud ref="child"></wordcloud>
+      <wordcloud ref="wordcloud"></wordcloud>
     </div>
     <div id="Inf_view1">
-        <punch></punch>  
+        <punch ref="punch"></punch>  
     </div>
     <div id="timeline">
       <pxzb></pxzb>
@@ -19,7 +19,7 @@
 /*  import * as d3 from 'd3v4'*/
 
   import timeline from './components/timeline'
-  import my_main from './components/main_circle'
+  import my_main from './components/main_force'
   import wordcloud from './components/wordcloud'
   import punch from './components/punch'
   import pxzb from './components/pxzb'
@@ -44,7 +44,8 @@
         console.log(range)
       },
       nodeselect(node){
-        this.$refs.child.drawwordcloud(node) // 方法2
+        this.$refs.wordcloud.drawwordcloud(node) 
+        this.$refs.punch.drawpunch(node) 
       }
     },
     beforeCreate(){
