@@ -10,7 +10,7 @@
         <punch ref="punch"></punch>  
     </div>
     <div id="timeline">
-      <pxzb></pxzb>
+      <pxzb ref="pxzb"></pxzb>
     </div>
   </div>
 </template>
@@ -42,6 +42,7 @@
       nodeselect(node){
         this.$refs.wordcloud.drawwordcloud(node) 
         this.$refs.punch.drawpunch(node) 
+        this.$refs.pxzb.drawpxzb(node) 
       }
     },
     beforeCreate(){

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="d3.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		d3.csv("web_class.csv",function(data){
+			console.log(data);
+			var re=[];
+			data.forEach(function(num){
+				if (re[num.type]==undefined)
+					re[num.type]=[];
+				re[num.type].push(num);
+			})
+
+			var result={};
+			for (let key in re)
+			{
+				result[key]=re[key]
+			}
+
+			console.log(JSON.stringify(result))
+		})
+	</script>
+</body>
+</html>
