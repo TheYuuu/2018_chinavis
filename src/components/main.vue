@@ -20,8 +20,6 @@ export default {
 
   mounted (){
     var that=this;
-
-d3.json("../static/Email_depart.json",function(email){
     d3.json("../static/tree.json",function(data){
     !(function(){
     "use strict"
@@ -40,7 +38,7 @@ d3.json("../static/Email_depart.json",function(email){
         node.r=15/node.level;
         node.label=count;
         count++;
-        nodes.push({"index":node.label,"level":node.level,"name":node.name,"r":node.r,"subjects_in":node.subjects_in,"subjects_out":node.subjects_out,"type":node.type,});
+        nodes.push({"index":node.label,"level":node.level,"name":node.name,"r":node.r,"type":node.type,});
 
         if (node.children!=undefined){
             node.children.forEach(function(item){
@@ -116,6 +114,13 @@ d3.json("../static/Email_depart.json",function(email){
         color["finance"]="#FAA24B";
         color["HR"]="green";
 
+        var tooltip = d3.select("body")
+            .append("div")
+            .style("position", "absolute")
+            .style("z-index", "10")
+            .style("visibility", "hidden")
+            .style("color","white")
+
         var node_g = svg.append("g")
             .attr("class", "nodes")
             .selectAll("g")
@@ -123,83 +128,66 @@ d3.json("../static/Email_depart.json",function(email){
             .enter()
             .append('g')
             .attr("class", function(d){
-                if (d.level<=2)
-                    return "g_"+d.type+'_showword'
-                else return "g_"+d.type
+                 return +d.type
             })            
             .style("cursor","hand")
             .on("mousedown",function(d){
                 that.selectnode(d);
             })
-            .on("mouseover",function(d) {
-                d3.selectAll("circle").attr("opacity",0.2)
-                d3.selectAll("."+d.type).attr("opacity",1)
+            .on("mouseover", function(d){ 
+                tooltip.html("ID:"+d.name+"<br>"+"Depart:"+d.type);
+                tooltip.style("visibility", "visible");
             })
-            .on("mouseout",function(d){
-                d3.selectAll("circle").attr("opacity",1)
+            .on("mousemove", function(d){ 
+                tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px")
             })
+            .on("mouseout", function(d){ 
+                tooltip.style("visibility", "hidden")
+            })
+
             .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
-                .on("end", dragended))
+                .on("end", dragended));
+
 
          var node=node_g.append("circle")
-            .attr("class",function(d){  return d.type; })
+            .attr("class",function(d){  return "circle_"+d.type })
             .attr("r", function(d){  return d.r })
-            .attr("fill",function(d){return color[d.type]})
+            .attr("fill",function(d){
+                if (d.type.indexOf("Boss")!=-1)
+                    return color["Boss"];
+                else if (d.type.indexOf("development1")!=-1)
+                    return color["development1"];
+                else if (d.type.indexOf("development2")!=-1)
+                    return color["development2"];
+                else if (d.type.indexOf("development3")!=-1)
+                    return color["development3"];
+                else if (d.type.indexOf("finance")!=-1)
+                    return color["finance"];
+                else if (d.type.indexOf("HR")!=-1)
+                    return color["HR"];
+            })
             .attr("stroke",function(d){
                  if(d.level==2)
                     return "white"
                 else if (d.level==3 && d.type.indexOf("development")!=-1)
                     return "#ffff00"
-            })
-
-             //word-cloud--------------------------
-/*
-                    var color = d3.scaleLinear()
-                            .domain([0,1,2,3,4,5,6,10,15,20,100])
-                            .range(["#ddd", "#ccc", "#bbb", "#aaa", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
+            })            
 
 
-                    var text_g='g_'
-                    for (let key in email)
-                    {
-                        console.log(email[key].send)
-                        text_g+=key;
-                         d3.layout.cloud().size([200, 200])
-                                .words(email[key].send)
-                                .rotate(0)
-                                .fontSize(function(d) { return d.size; })
-                                .on("end", draw)
-                                .start();
-                    }
+            var texts=node_g.selectAll("text")
+                    .append("text")
 
-
-
-                    function draw(words) {
-                        console.log(words)
-                        d3.select('.'+text_g+'_showword')
-                                .append('g')
-                                .selectAll("text")
-                                .data(words)
-                                .enter().append("text")
-                                .style("font-size", function(d) { return d.size + "px"; })
-                                .style("fill", function(d, i) { return color(i); })
-                                .attr("transform", function(d) {
-                                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-                                })
-                                .text(function(d) { return d.text; });
-                        text_g='g_'
-                    }*/
 
         var ticked = function() {
             link
                 .attr("x1", function(d) { return d.source.x; })
                 .attr("y1", function(d) { return d.source.y; })
                 .attr("x2", function(d) { return d.target.x; })
-                .attr("y2", function(d) { return d.target.y; });
+                .attr("y2", function(d) { return d.target.y; })
 
-            node_g.attr("transform", function(d) {return "translate(" + d.x + "," + d.y + ")"});
+            node_g.attr("transform", function(d) {return "translate(" + d.x + "," + d.y + ")"})
     
         }  
         simulation
@@ -243,7 +231,6 @@ d3.json("../static/Email_depart.json",function(email){
     }
 }());
     })
-})
 
 
   }

@@ -14,10 +14,29 @@
     methods:{
       drawpunch(node){
         let that=this;
-
-        d3.json("../../static/Check_depart.json",function(check){
-             that.draw(check[node.type])
-          })
+        if (node.type.indexOf("HR")!=-1)
+        {
+          that.draw(this.$store.getters.getECheck_person["HR"])
+        }
+        else if (node.type.indexOf("finance")!=-1)
+        {
+          that.draw(this.$store.getters.getECheck_person["finance"])
+        }
+        else if (node.type.indexOf("Boss")!=-1)
+        {
+          that.draw(this.$store.getters.getECheck_person["Boss"])
+        }
+        else {
+          var t=node.type.split("_");
+          if (node.type.indexOf("Depart")!=-1)
+          {
+            that.draw(this.$store.getters.getECheck_person[t[0]])
+          }
+          else
+          {
+            that.draw(this.$store.getters.getECheck_person[t[0]+"_"+t[1]])
+          }
+        }
       },
       draw(nodedata){
 
@@ -159,7 +178,7 @@
             polar: {},
             tooltip: {
               formatter: function (params) {
-                return params.value[2].toFixed(2) + '%' + hours[params.value[1]] + ' of ' + days[params.value[0]];
+                return params.value[2].toFixed(2) + '%: ' + hours[params.value[1]] + ' in ' + days[params.value[0]];
               }
             },
             angleAxis: {

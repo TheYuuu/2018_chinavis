@@ -55,6 +55,18 @@
       .catch(function (error) {
         console.log(error);
       });*/
+    },
+    mounted(){
+          var that=this;
+          d3.json("../../static/Email_person/Email_person.json",function(email){
+            that.$store.dispatch('getEmail_personAction',email);
+          })
+        d3.json("../../static/Check_person/Check_person.json",function(check){
+             that.$store.dispatch('Check_person_personAction',check);
+          })
+        d3.json("../static/Web_depart.json",function(Web_depart){
+             that.$store.dispatch('Web_person_personAction',Web_depart);
+          })
     }
   }
 </script>

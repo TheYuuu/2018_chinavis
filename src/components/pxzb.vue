@@ -15,11 +15,30 @@
     methods:{
       drawpxzb(node)
       {          
-
-        let that=this;
-        d3.json("../../static/Web_depart.json",function(Web_depart){
-             that.draw(Web_depart[node.type])
-          })
+        if (node.type.indexOf("HR")!=-1)
+        {
+          this.draw(this.$store.getters.getWeb_person["HR"])
+        }
+        else if (node.type.indexOf("finance")!=-1)
+        {
+          this.draw(this.$store.getters.getWeb_person["finance"])
+        }
+        else if (node.type.indexOf("Boss")!=-1)
+        {
+          this.draw(this.$store.getters.getWeb_person["Boss"])
+        }
+        else if (node.type.indexOf("development1")!=-1)
+        {
+          this.draw(this.$store.getters.getWeb_person["development1"])
+        }
+        else if (node.type.indexOf("development2")!=-1)
+        {
+          this.draw(this.$store.getters.getWeb_person["development2"])
+        }
+        else if (node.type.indexOf("development3")!=-1)
+        {
+          this.draw(this.$store.getters.getWeb_person["development3"])
+        }
       },
       draw(data){
         console.log(data)
